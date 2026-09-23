@@ -240,13 +240,3 @@ RDS is configured with:
 - storage encryption
 - no public accessibility
 
-## GitHub submission
-
-```bash
-git init
-git add .
-git commit -m "Add Terraform and PostgreSQL reliability assessment"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPOSITORY_URL>
-git push -u origin main
-```
