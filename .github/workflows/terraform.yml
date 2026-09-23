@@ -48,7 +48,4 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
-        run: terraform plan \
-          -input=false \
-          -refresh=false \
-          -var-file=${{ matrix.environment }}.tfvars
+        run: terraform plan -var-file=${{ matrix.environment }}.tfvars
